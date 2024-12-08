@@ -35,7 +35,7 @@ function HomePage() {
 
         {/* Image */}
 
-        <div className='mt-[50px] md:mt-0 '>   
+        <div className='mt-[50px] md:mt-100 '>   
             <Image 
                 src="/food.png"
                 alt='Hero Image'

@@ -4,6 +4,7 @@ import React from "react"
 import Image from "next/image"
 import google from "../../../public/google.png"
 import apple from "../../../public/apple.png"
+import { Input } from "@/components/ui/input";
 
 export default function SignUpPage() {
   return (
@@ -41,7 +42,7 @@ export default function SignUpPage() {
               />
             </div>
             <div className="flex items-center mb-4">
-              <input type="checkbox" className="mr-2" />
+              <Input type="checkbox" className="mr-2" />
               <span>Remember me?</span>
             </div>
             <button

@@ -1,12 +1,16 @@
 import React from 'react'
-import Hero from './Hero'
-const BlogPage = () => {
+import BlogPage from './BlogPage'
+import BlogDetails from './BlogDetailsPage'
+import Hero from "./Hero"
+
+const Blog = () => {
   return (
     <div>
       <Hero />
-      
+      <BlogPage />
+      <BlogDetails />
     </div>
   )
 }
 
-export default BlogPage
+export default Blog

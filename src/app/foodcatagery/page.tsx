@@ -4,10 +4,10 @@ import Image from 'next/image'
 const FoodCategory = () => {
   // Items array containing food details
   const items = [
-    { id: 1, img: "/food1.png", label: "Save 50% on Fast Food" },
-    { id: 2, img: "/food2.png", label: "Delicious Burgers" },
-    { id: 3, img: "/food3.png", label: "Healthy Salads" },
-    { id: 4, img: "/food4.png", label: "Desserts" },
+    { id: 1, Image: "/food1.png", label: "Save 50% on Fast Food" },
+    { id: 2, Image: "/food2.png", label: "Delicious Burgers" },
+    { id: 3, Image: "/food3.png", label: "Healthy Salads" },
+    { id: 4, Image: "/food4.png", label: "Desserts" },
   ];
 
   return (
@@ -24,7 +24,7 @@ const FoodCategory = () => {
             <div key={item.id} className="relative">
               {/* Image of the food item */}
               <Image
-                src={item.img}
+                src={item.Image}
                 alt={item.label}
                 width={500}
                 height={500}

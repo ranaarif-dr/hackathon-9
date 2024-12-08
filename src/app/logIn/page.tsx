@@ -2,6 +2,7 @@ import Link from "next/link";
 import { IoChevronForwardOutline } from "react-icons/io5";
 import { FcGoogle } from "react-icons/fc";
 import { ImAppleinc } from "react-icons/im";
+import { Input } from "@/components/ui/input";
 
 export default function SignInPage() {
   return (
@@ -57,7 +58,7 @@ export default function SignInPage() {
               />
             </div>
             <div className="flex items-center mb-4">
-              <input type="checkbox" className="mr-2" />
+              <Input type="checkbox" className="mr-2" />
               <span>Remember me?</span>
             </div>
             <button

@@ -1,6 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import { Input } from "@/components/ui/input"
+import Image from "next/image"
 
 const initialCartItems = [
   { name: "Burger", price: 10.99, quantity: 2, image: "/cart1.png" },
@@ -39,6 +41,7 @@ const ShoppingCart: React.FC = () => {
   const totalAmount = cartSubtotal - cartSubtotal * discount + shippingCharges;
 
   return (
+    <>
     <div className="bg-white font-sans">
       <header className="bg-cover bg-center h-48 flex items-center justify-center" style={{ backgroundImage: 'url(/path/to/header-bg.jpg)' }}>
         <h1 className="text-5xl font-bold text-white tracking-wide">Shopping Cart</h1>
@@ -58,12 +61,12 @@ const ShoppingCart: React.FC = () => {
             {cartItems.map((item, index) => (
               <tr key={index} className="border-b">
                 <td className="p-4 flex items-center">
-                  <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded mr-4" />
+                  <Image src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded mr-4" />
                   <span>{item.name}</span>
                 </td>
                 <td className="p-4">${item.price.toFixed(2)}</td>
                 <td className="p-4">
-                  <input
+                  <Input
                     type="number"
                     value={item.quantity}
                     onChange={(e) => handleQuantityChange(index, parseInt(e.target.value) || 0)}
@@ -126,6 +129,7 @@ const ShoppingCart: React.FC = () => {
         </div>
       </main>
     </div>
+  </>
   );
 };
 

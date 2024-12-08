@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { IoPlayOutline } from "react-icons/io5";
-
+import aboutus from "../../../public/aboutus.png"
+import about3 from "../../../public/about3.png"
+import about4 from "../../../public/about4.png"
 
 export default function Aboutus() {
   return (
@@ -12,7 +14,7 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-336px h-536px mt-530px ml-300px radius-6px"
               alt="hero"
-              src= "/about1.png" width={309} height={536} 
+              src= {aboutus} width={309} height={536} 
             />
           </div>
           {/* Right Images */}
@@ -20,14 +22,14 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-309px h-271px mt-584px ml-660px radius-6px"
               alt="image2"
-              src="/youget.png"
+              src={about4}
               width={309} height={271}
             />
             {/* Bottom Image */}
             <Image
               className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
               alt="image3"
-              src="/youget2.png"
+              src={about3}
               width={309} height={382}
             />
           </div>
