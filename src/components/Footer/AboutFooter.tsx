@@ -1,4 +1,4 @@
-import { Clock } from 'lucide-react'
+// import { Clock } from 'lucide-react'
 
 export default function AboutUsSection() {
   return (
@@ -9,7 +9,7 @@ export default function AboutUsSection() {
       </p>
       <div className="flex items-start">
         <div className="bg-[#FF9F0D] p-2 rounded mr-4 w-[77.23px] h-[70.79px]">
-          <Clock className="text-white" />
+          {/* <Clock className="text-white" /> */}
         </div>
         <div>
           <h4 className="font-semibold">Opening Hours</h4>

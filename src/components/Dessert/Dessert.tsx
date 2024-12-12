@@ -1,7 +1,7 @@
 
 import { menuItems } from '@/constant/Menu'
-import { Coffee } from 'lucide-react'
-import Heading from '../Heading/Heading'
+// import { Coffee } from 'lucide-react'
+// import Heading from '../Heading/Heading'
 import Image from "next/image"
 
 export default function Dessert() {
@@ -22,8 +22,8 @@ export default function Dessert() {
         {/* Menu Items Section */}
         <div className="md:w-1/2 md:pl-8">
           <div className="flex items-center mb-6">
-            <Coffee className="text-[#FF9F0D]" size={24} />
-            <Heading text="Dessert" />
+            {/* <Coffee className="text-[#FF9F0D]" size={24} /> */}
+            {/* <Heading text="Dessert" /> */}
           </div>
 
           <div className="space-y-8">

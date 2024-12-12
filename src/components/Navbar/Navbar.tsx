@@ -4,7 +4,7 @@
 import { useState } from 'react'
 import Link from "next/link"
 import Image from "next/image"
-import { Menu, X } from 'lucide-react'
+// import { Menu, X } from 'lucide-react'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -35,7 +35,7 @@ export default function Navbar() {
           className="lg:hidden text-white z-10"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {/* {isMenuOpen ? <X size={24} /> : <Menu size={24} />} */}
         </button>
 
         {/* Navigation Links */}

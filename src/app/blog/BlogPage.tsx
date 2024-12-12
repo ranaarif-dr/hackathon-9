@@ -8,20 +8,6 @@ export default function BlogPage() {
         {/* // Main div  */}
         <div className='relative w-[1920px] text bg-white' >
 
-            {/* 2nd div bg-Image */}
-            <div className='w-[1920px]  text-center'>
-                <Image 
-                src='/bg-image.png'
-                alt=''
-                width={1920}
-                height={410}
-
-                />
-                <div className='w-full text-white absolute text-center top-40 left-0 items-center'>
-                    <h1 className='text-5xl font-bold'>Blog List</h1>
-                    <h5 className='py-3'>Home<span className='text-[#FF9F0D]'>Blog</span></h5>
-                </div>
-            </div>
 
             
             
@@ -33,7 +19,7 @@ export default function BlogPage() {
 
         {/* First Image */}
         <Image 
-        src='/Image1.png'
+        src='/blog-1.png'
         alt=''
         width={872}
         height={530}
@@ -48,9 +34,9 @@ export default function BlogPage() {
             className='cursor-pointer'
             />
             <Image 
-            src='/Admin.png'
+            src='/admin.svg'
             alt=''
-            width={267}
+            width={24}
             height={24}
             className='cursor-pointer'
             />
@@ -62,7 +48,7 @@ export default function BlogPage() {
          {/* Second Image */}
          
         <Image 
-        src='/Image2.png'
+        src='/blog-2.png'
         alt=''
         width={872}
         height={530}
@@ -78,9 +64,9 @@ export default function BlogPage() {
             className='cursor-pointer'
             />
             <Image 
-            src='/Admin.png'
+            src='/admin.svg'
             alt=''
-            width={267}
+            width={24}
             height={24}
             className='cursor-pointer'
             />
@@ -93,7 +79,7 @@ export default function BlogPage() {
         {/* Third image */}
 
         <Image 
-        src='/Image3.png'
+        src='/blog-3.png'
         alt=''
         width={872}
         height={530}
@@ -108,9 +94,9 @@ export default function BlogPage() {
             className='cursor-pointer'
             />
             <Image 
-            src='/Admin.png'
+            src='/admin.svg'
             alt=''
-            width={267}
+            width={24}
             height={24}
             className='cursor-pointer'
             />
@@ -124,7 +110,7 @@ export default function BlogPage() {
         {/* Fourth Image */}
 
         <Image 
-        src='/Image4.png'
+        src='/blog-4.png'
         alt=''
         width={872}
         height={530}
@@ -140,9 +126,9 @@ export default function BlogPage() {
             className='cursor-pointer'
             />
             <Image 
-            src='/Admin.png'
+            src='/admin.svg'
             alt=''
-            width={267}
+            width={24}
             height={24}
             className='cursor-pointer'
             />

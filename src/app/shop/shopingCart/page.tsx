@@ -60,7 +60,7 @@ const ShoppingCart: React.FC = () => {
             {cartItems.map((item, index) => (
               <tr key={index} className="border-b">
                 <td className="p-4 flex items-center">
-                  <Image src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded mr-4" />
+                  <Image src={item.image} width={64} height={64} alt={item.name} className="w-16 h-16 object-cover rounded mr-4" />
                   <span>{item.name}</span>
                 </td>
                 <td className="p-4">${item.price.toFixed(2)}</td>

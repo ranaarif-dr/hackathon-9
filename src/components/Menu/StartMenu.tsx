@@ -1,7 +1,7 @@
 
 import { menuItems } from '@/constant/Menu';
-import { Coffee } from 'lucide-react';
-import Heading from '../Heading/Heading';
+// import { Coffee } from 'lucide-react';
+// import Heading from '../Heading/Heading';
 import Image from "next/image";
 
 export default function StarterMenu() {
@@ -21,8 +21,8 @@ export default function StarterMenu() {
         {/* Menu Content */}
         <div className="w-full lg:w-1/2 lg:pl-8">
           <div className="flex flex-col mb-8">
-            <Coffee className="ml-2 text-[#FF9F0D]" size={24} />
-            <Heading text="Starter Menu" />
+            {/* <Coffee className="ml-2 text-[#FF9F0D]" size={24} /> */}
+            {/* <Heading text="Starter Menu" /> */}
           </div>
           <div className="space-y-8">
             {menuItems.map((item, index) => (

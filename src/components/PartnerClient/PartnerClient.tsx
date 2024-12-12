@@ -25,6 +25,7 @@ export default function PartnersAndClients() {
           <div key={index} className="flex justify-center">
             <Image
               src={partner.logo}
+              fill
               alt={`${partner.name} logo`}
               className="max-h-24 sm:max-h-32 w-auto grayscale hover:grayscale-0 transition-all duration-300"
             />
